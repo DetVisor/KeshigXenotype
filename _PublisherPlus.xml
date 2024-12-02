@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Excluded>
+    <exclude>.git</exclude>
+    <exclude>About\BreakdownScreen.png</exclude>
+    <exclude>About\Screen1.png</exclude>
+    <exclude>About\Screen2.png</exclude>
+    <exclude>About\Screen3.png</exclude>
+    <exclude>Previews</exclude>
+    <exclude>Textures\WorldIcon</exclude>
+  </Excluded>
+</Configuration>
