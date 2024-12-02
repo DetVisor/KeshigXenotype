@@ -109,9 +109,9 @@
     <defName>DV_BloodwineRush</defName>
     <label>gorewine rush</label>
     <labelNoun>a gorewine rush</labelNoun>
-    <description>D.</description>
+    <description>The effects of gorewine. It boosts adrenaline production, allowing faster melee attack speed.</description>
     <hediffClass>Hediff_Alcohol</hediffClass>
-    <defaultLabelColor>(1,0,0)</defaultLabelColor>
+    <defaultLabelColor>(1,0.1,0.1)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <isBad>false</isBad>
     <comps>
@@ -126,7 +126,7 @@
             <label>warm</label>
 
             <statOffsets>
-                <MeleeCooldownFactor>-0.1</MeleeCooldownFactor>
+                <MeleeCooldownFactor>-0.06</MeleeCooldownFactor>
             </statOffsets>			
         </li>
         <li>
@@ -134,7 +134,7 @@
             <label>tipsy</label>
 
             <statOffsets>
-                <MeleeCooldownFactor>-0.15</MeleeCooldownFactor>
+                <MeleeCooldownFactor>-0.12</MeleeCooldownFactor>
             </statOffsets>		
         </li>
         <li>
@@ -142,7 +142,7 @@
             <label>drunk</label>
 
             <statOffsets>
-                <MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
+                <MeleeCooldownFactor>-0.18</MeleeCooldownFactor>
             </statOffsets>		
         </li>
         <li>
@@ -150,7 +150,7 @@
             <label>hammered</label>
 
             <statOffsets>
-                <MeleeCooldownFactor>-0.35</MeleeCooldownFactor>
+                <MeleeCooldownFactor>-0.24</MeleeCooldownFactor>
             </statOffsets>		
         </li>
         <li>

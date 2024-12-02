@@ -3,12 +3,12 @@
 
   <GeneDef>
     <defName>DV_DodgeChance_Low</defName>
-    <label>inept</label>
+    <label>lumbering</label>
     <description>Carriers of this gene are physically stiffer and have a hard time dodging blows.</description>
     <iconPath>UI/Icons/Genes/Gene_Inept</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
     <statOffsets>
-      <MeleeDodgeChance>-0.4</MeleeDodgeChance>
+      <MeleeDodgeChance>-2</MeleeDodgeChance>
     </statOffsets>
     <biostatMet>1</biostatMet>
     <symbolPack>
@@ -21,12 +21,12 @@
 
   <GeneDef>
     <defName>DV_DodgeChance_High</defName>
-    <label>nimble</label>
+    <label>deft</label>
     <description>Carriers of this gene are highly flexible and have a easier time avoiding blows.</description>
     <iconPath>UI/Icons/Genes/Gene_Nimble</iconPath>
     <displayOrderInCategory>0</displayOrderInCategory>
     <statOffsets>
-      <MeleeDodgeChance>0.4</MeleeDodgeChance>
+      <MeleeDodgeChance>2</MeleeDodgeChance>
     </statOffsets>
     <biostatMet>-1</biostatMet>
     <symbolPack>
