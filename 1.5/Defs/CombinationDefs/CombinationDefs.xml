@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ItemProcessor.CombinationDef>
+    <defName>DV_GoreMustToWine</defName>
+    <building>DV_BloodwineBarrel</building>
+    <items>
+        <li>DV_GoreMust</li>
+    </items>	
+    <amount>
+        <li>25</li>
+    </amount>
+    <result>DV_Bloodwine</result>	
+    <yield>15</yield>
+    <useQualityIncreasing>false</useQualityIncreasing>
+    <singleTimeIfNotQualityIncreasing>5</singleTimeIfNotQualityIncreasing>
+</ItemProcessor.CombinationDef>
+
+</Defs>

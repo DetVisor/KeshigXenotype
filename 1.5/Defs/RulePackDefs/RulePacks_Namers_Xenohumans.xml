@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RulePackDef>
+    <defName>NamerPersonKeshig</defName>
+    <rulePack>
+      <include>
+        <li>NamerFirstnamesKeshig</li>
+        <li>NamerLastNamesKeshig</li>
+      </include>
+      <rulesStrings>
+        <li>r_name->[firstName] [lastName]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  
+  <RulePackDef>
+    <defName>NamerFirstnamesKeshig</defName>
+    <rulePack>
+        <rulesStrings>
+            <li>firstName(p=2)->[firstNamePrefix][firstNameSuffix]</li>
+            <li>firstName(p=0.5)->[firstNamePrefix]'[firstNameSuffix]</li>
+            <li>firstName(p=0.5)->[presetName]</li>
+         
+            <li>firstNamePrefix->kv</li> <!-- 82 prefixes-->
+            <li>firstNamePrefix->kl</li>
+            <li>firstNamePrefix->ke</li>
+            <li>firstNamePrefix->kn</li>
+            <li>firstNamePrefix->kg</li>
+            <li>firstNamePrefix->kd</li>
+            <li>firstNamePrefix->km</li>
+            <li>firstNamePrefix->ka</li>
+            <li>firstNamePrefix->kol</li>
+            <li>firstNamePrefix->kel</li>
+            <li>firstNamePrefix->kin</li>
+            <li>firstNamePrefix->ki</li>
+            <li>firstNamePrefix->kh</li>
+            <li>firstNamePrefix->koz</li>
+            <li>firstNamePrefix->kez</li>
+            <li>firstNamePrefix->kin</li>
+
+            <li>firstNamePrefix->kah</li>
+            <li>firstNamePrefix->koh</li>
+            <li>firstNamePrefix->keh</li>
+
+            <li>firstNamePrefix->h</li>
+            <li>firstNamePrefix->l</li>
+            <li>firstNamePrefix->k</li>
+            <li>firstNamePrefix->m</li>
+
+            <li>firstNamePrefix->gu</li>
+            <li>firstNamePrefix->ge</li>
+            <li>firstNamePrefix->gv</li>
+            <li>firstNamePrefix->gn</li>
+            <li>firstNamePrefix->gm</li>
+            <li>firstNamePrefix->gh</li>
+            <li>firstNamePrefix->gril</li>
+            <li>firstNamePrefix->gral</li>
+            <li>firstNamePrefix->gor</li>
+            <li>firstNamePrefix->gork</li>
+
+            <li>firstNamePrefix->bah</li>
+            <li>firstNamePrefix->beh</li>
+            <li>firstNamePrefix->be</li>
+            <li>firstNamePrefix->ba</li>
+            <li>firstNamePrefix->bo</li>
+            <li>firstNamePrefix->bor</li>
+            <li>firstNamePrefix->bar</li>
+            <li>firstNamePrefix->ber</li>
+
+            <li>firstNamePrefix->mar</li>
+            <li>firstNamePrefix->ma</li>
+            
+            <li>firstNameSuffix->gon</li>
+            <li>firstNameSuffix->on</li>
+            <li>firstNameSuffix->var</li>
+            <li>firstNameSuffix->gar</li>
+            <li>firstNameSuffix->lar</li>
+            <li>firstNameSuffix->ler</li>
+            <li>firstNameSuffix->vaar</li>
+            <li>firstNameSuffix->ver</li>
+            <li>firstNameSuffix->ger</li>
+            <li>firstNameSuffix->vir</li>
+            <li>firstNameSuffix->ven</li>
+            <li>firstNameSuffix->van</li>
+            <li>firstNameSuffix->ther</li>
+            <li>firstNameSuffix->thar</li>
+            <li>firstNameSuffix->thir</li>
+            <li>firstNameSuffix->vhir</li>
+            <li>firstNameSuffix->mar</li>
+            <li>firstNameSuffix->mer</li>
+            <li>firstNameSuffix->lher</li>
+            <li>firstNameSuffix->lhar</li>
+            <li>firstNameSuffix->lok</li>
+            <li>firstNameSuffix->lek</li>
+            <li>firstNameSuffix->ghar</li>
+            <li>firstNameSuffix->gher</li>
+
+            <li>firstNameSuffix->ra</li>
+            <li>firstNameSuffix->rok</li>
+            <li>firstNameSuffix->ro</li>
+            <li>firstNameSuffix->rtok</li>
+            <li>firstNameSuffix->tok</li>
+            <li>firstNameSuffix->rak</li>
+
+            <li>firstNameSuffix->ol</li>
+            <li>firstNameSuffix->oll</li>
+
+            <li>firstNameSuffix->il</li>
+            <li>firstNameSuffix->ill</li>
+            <li>firstNameSuffix->less</li>
+            <li>firstNameSuffix->lass</li>
+            <li>firstNameSuffix->loss</li>
+            <li>firstNameSuffix->liss</li>
+
+            <li>firstNameSuffix->gil</li>
+            <li>firstNameSuffix->gill</li>
+
+            
+            <li>firstNameSuffix->el</li>
+            <li>firstNameSuffix->ell</li>
+            <li>firstNameSuffix->rell</li>
+
+            <li>firstNameSuffix->uss</li>
+ 
+            <!-- Preset name; rarer than custom ones-->
+
+            <li>presetName->martok</li>
+            <li>presetName->mortok</li>
+            <li>presetName->worf</li>
+            <li>presetName->mogh</li>
+            <li>presetName->magh</li>
+            <li>presetName->molor</li>
+            <li>presetName->mara</li>
+
+            <li>presetName->lursa</li>
+            <li>presetName->lukara</li>
+            <li>presetName->l'rell</li>
+
+            <li>presetName->berot</li>
+            <li>presetName->barot</li>
+            <li>presetName->b'etor</li>
+            <li>presetName->b'ator</li>
+
+            <li>presetName->d'gor</li>
+            <li>presetName->dennas</li>
+            <li>presetName->duras</li>
+            <li>presetName->d'rell</li>
+            <li>presetName->b'ator</li>
+
+            <li>presetName->gowron</li>
+            <li>presetName->grafk</li>
+            <li>presetName->grilka</li>
+            <li>presetName->gorkon</li>
+
+            <li>presetName->o'reg</li>
+            <li>presetName->o'rag</li>
+
+            <li>presetName->pok</li>
+
+            <li>presetName->torg</li>
+            <li>presetName->torghn</li>
+            <li>presetName->targ</li>
+            <li>presetName->targhn</li>
+            <li>presetName->t'vis</li>
+            <li>presetName->t'avis</li>
+            <li>presetName->t'evis</li>
+            <li>presetName->t'kuvma</li>
+            <li>presetName->t'kevma</li>
+
+            <li>presetName->valkris</li>
+            <li>presetName->vulkris</li>
+            <li>presetName->velkris</li>
+            <li>presetName->vixis</li>
+
+            <li>presetName->a'trom</li>
+            <li>presetName->azetbur</li>
+            <li>presetName->azetbar</li>
+
+            <li>presetName->kr'atak</li>
+            <li>presetName->kr'ptok</li>
+            <li>presetName->krell</li>
+            <li>presetName->kortmag</li>
+            <li>presetName->kras</li>
+            <li>presetName->krenn</li>
+            <li>presetName->kruge</li>
+            <li>presetName->korax</li>
+            <li>presetName->kor</li>
+            <li>presetName->kol</li>
+            <li>presetName->koloth</li>
+            <li>presetName->ko'lek</li>
+            <li>presetName->ko'lar</li>
+            <li>presetName->k'mpec</li>
+            <li>presetName->kang</li>
+            <li>presetName->kargan</li>
+            <li>presetName->klavek</li>
+            <li>presetName->klaa</li>
+        </rulesStrings>
+    </rulePack>
+</RulePackDef>
+
+<RulePackDef>
+  <defName>NamerLastNamesKeshig</defName>
+  <rulePack>
+      <rulesStrings>
+          <li>lastName(p=5)->[lastNamePrefix][lastNameSuffix]</li>
+          <li>lastName(p=0.5)->Kla'[lastNamePrefix][lastNameSuffix]</li>
+          <li>lastName(p=0.5)->Mle'[lastNamePrefix][lastNameSuffix]</li>
+
+          <li>lastNamePrefix->mal</li>
+          <li>lastNamePrefix->mak</li>
+          <li>lastNamePrefix->mo</li>
+          <li>lastNamePrefix->mer</li>
+          <li>lastNamePrefix->mor</li>
+          <li>lastNamePrefix->gal</li>
+          <li>lastNamePrefix->gel</li>
+          <li>lastNamePrefix->ge</li>
+          <li>lastNamePrefix->ga</li>
+          <li>lastNamePrefix->kn</li>
+          <li>lastNamePrefix->ke</li>
+          <li>lastNamePrefix->kel</li>
+          <li>lastNamePrefix->kal</li>
+          <li>lastNamePrefix->ka</li>
+
+          <li>lastNameSuffix->gh</li>
+          <li>lastNameSuffix->goh</li>
+          <li>lastNameSuffix->gerh</li>
+          <li>lastNameSuffix->ghm</li>
+          <li>lastNameSuffix->gehm</li>
+          <li>lastNameSuffix->ar</li>
+          <li>lastNameSuffix->er</li>
+          <li>lastNameSuffix->kex</li>
+          <li>lastNameSuffix->gehx</li>
+          <li>lastNameSuffix->kehx</li>
+          <li>lastNameSuffix->kahx</li>
+          <li>lastNameSuffix->lox</li>
+          <li>lastNameSuffix->lex</li>
+          <li>lastNameSuffix->mex</li>
+
+      </rulesStrings>
+  </rulePack>
+</RulePackDef>
+
+</Defs>

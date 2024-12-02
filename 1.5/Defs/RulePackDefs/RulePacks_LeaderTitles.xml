@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RulePackDef>
+        <defName>LeaderTitleMaker_Keshig</defName>
+        <rulePack>
+          <rulesStrings>
+            <li>r_leaderTitle->khan</li>
+          </rulesStrings>
+        </rulePack>
+      </RulePackDef>
+</Defs>

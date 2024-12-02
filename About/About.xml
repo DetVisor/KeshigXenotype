@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Det's Xenotypes - Keshig</name>
+	<author>DetVisor</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+		  <packageId>brrainz.harmony</packageId>
+		  <displayName>Harmony</displayName>
+		  <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		  <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+		  <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		  <displayName>Vanilla Expanded Framework</displayName>
+		  <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Rimworld - Biotech</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+		</li>
+	  </modDependencies>
+	<packageId>det.keshig</packageId>
+	<description>This mod introduces a tough, brutal xenotype forged for battle and adept in melee combat. Also comes with a faction of them, and a style.</description>
+</ModMetaData>

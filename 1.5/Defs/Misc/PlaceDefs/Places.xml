@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<PlaceDef>
+    <defName>DV_Uliger</defName>
+    <tags>
+      <li>OriginSpacer</li>
+    </tags>
+    <placeRules>
+      <include>
+        <li>PlaceMakerCommon</li>
+      </include>
+      <rulesStrings>
+        <!-- Uliger is a barren moon orbiting a gas giant with no atmosphere, home to extensive genetic facilities owned by the Kharock Dynasty. -->
+        <li>place_name->Uliger</li>
+        <li>place_adjective->Uligerian</li>
+        <li>place_summary->genetic splicer-moon</li>
+        <li>place_community->trainee barracks</li>
+        <li>place_community->training grounds</li>
+        <li>place_community->simulated enviro-dome</li>
+        <li>place_powerCenter->Head-director's central office</li>
+        <li>place_job->shaman</li>
+        <li>place_job->trainee</li>
+        <li>place_job->veteran</li>
+        <li>place_job->science officer</li>
+        <li>place_job->chief commander</li>
+        <li>place_personalWeapon->serrated scimitar</li>
+        <li>place_personalWeapon->bow</li>
+        <li>place_massWeapon->an atmospheric hyper-bombardment</li>
+        <li>place_massWeapon->a chemical pathogenic agent</li>
+        <li>place_foeLeader->head-director</li>
+        <li>place_foeSoldiers->kharockian scientist</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+</Defs>

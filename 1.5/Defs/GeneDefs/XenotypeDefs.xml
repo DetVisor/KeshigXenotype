@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<XenotypeDef>
+  <defName>DV_Keshig</defName>
+  <label>keshig</label>
+  <combatPowerFactor>1.4</combatPowerFactor>
+  <description>Keshig were nursed upon the treacherous conditions of a moon orbiting a remote gas giant. They were engineered by a long-gone empire to act as a disposable invasion force, and were given tough bones and hardy skin to make them very durable combatants, and reinforced skulls which protect them from psychic waves and lethal blows. They have increased stamina and have powerful legs which can propel them at terrifying speeds.\n\nAfter the original invasion attempt succeeded, many Keshig stole vessels and escaped to various planets across the known galaxy, creating tight-knit communities which share a strict culture built on honor, strength and loyalty. They often exert their power by invading and pillaging other settlements with the same efficiency and speed as their ancestors did centuries ago, causing many to assume them to be mindless barbarians. Yet, proud Keshig are always eager to prove them wrong.</description>
+  <descriptionShort>Keshig were nursed upon the treacherous conditions of a moon orbiting a remote gas giant. They were engineered by a long-gone empire to act as a disposable invasion force, and were given tough bones and hardy skin to make them very durable combatants, and reinforced skulls which protect them from psychic waves and lethal blows. They have increased stamina and have powerful legs which can propel them at terrifying speeds.</descriptionShort>
+  <iconPath>UI/Icons/Xenotypes/Keshig</iconPath>
+  <nameMaker>NamerPersonKeshig</nameMaker>
+  <chanceToUseNameMaker>1</chanceToUseNameMaker>
+  <inheritable>true</inheritable>
+  <genes>
+    <li>Robust</li>
+    <li>DV_DodgeChance_Low</li>
+    <li>PsychicAbility_Deaf</li>
+    <li>Instability_Mild</li>
+    <li>MoveSpeed_Quick</li>
+    <li>Unstoppable</li>
+    <li>Aggression_Aggressive</li>
+    <li>Libido_High</li>
+    <li>Beard_NoBeardOnly</li>
+    <li>DV_Hair_Keshig</li>
+    <li>DV_Jaw_Split</li>
+    <li>DV_Headbone_ForeheadPlating</li>
+    <li>Body_Hulk</li>
+	  <li>Skin_GrimyRed</li>
+    <li>Skin_GrimyOrange</li>
+	  <li>Skin_GrimyYellow</li>
+    <li>Skin_GrimyGreen</li>
+    <li>Skin_SlateGray</li>
+    <li>AptitudeStrong_Melee</li>
+    <li>AptitudeStrong_Animals</li>
+    <li>AptitudePoor_Plants</li>
+    <li>AptitudePoor_Social</li>
+    <li>WoundHealing_Fast</li>
+    <li>DV_MeleeAffinity</li>
+  </genes>
+  <forbiddenWeaponClasses>
+    <li>LongShots</li>
+    <li>ShortShots</li>
+    <li>RangedLight</li>
+  </forbiddenWeaponClasses>
+</XenotypeDef>
+
+</Defs>

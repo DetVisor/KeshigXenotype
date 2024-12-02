@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ItemProcessor.ItemAcceptedDef>
+    <defName>IP_BloodwineBarrelItem</defName>
+    <building>DV_BloodwineBarrel</building>
+    <slot>1</slot>
+    <items>			
+        <li>DV_GoreMust</li>						
+    </items>							
+</ItemProcessor.ItemAcceptedDef>
+
+</Defs>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RitualVisualEffectDef>
+    <defName>DV_TengristRitual</defName>
+    <tintColor>(222, 85, 101)</tintColor>
+    <comps>
+      <li>
+        <compClass>CompRitualEffect_ConstantCenter</compClass>
+        <moteDef>Mote_RitualSmokeThick</moteDef>
+        <scaleWithRoom>true</scaleWithRoom>
+      </li>
+      <li Class="CompProperties_RitualEffectConstantCircle">
+        <radius>7.0</radius>
+        <numCopies>3</numCopies>
+        <moteDef>DV_Mote_EffigyOutline</moteDef>
+        <scalePositionWithRoom>true</scalePositionWithRoom>
+        <onlySpawnInSameRoom>true</onlySpawnInSameRoom>
+        <offset>(0, 0, 0.5)</offset>
+        <roomCheckOffset>(0, 0, -1)</roomCheckOffset>
+      </li>
+    <li>
+        <compClass>CompRitualEffect_ConstantCenter</compClass>
+        <moteDef>DV_Mote_TengristCircle</moteDef>
+        <scaleWithRoom>true</scaleWithRoom>
+    </li>
+    </comps>
+  </RitualVisualEffectDef>
+
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <KeshigFactionGreetingHostile>{0} growls and scolds you in some unknown language and disconnects.</KeshigFactionGreetingHostile>
+  <KeshigFactionGreetingHostileAppreciative>Breathing heavily, muttering some swears in an unknown language, {0} commands that you will make a gesture of camaraderie, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nTaking a swig of {0_possessive} drink, {0_pronoun} disconnects.</KeshigFactionGreetingHostileAppreciative>
+  <KeshigFactionGreetingWary>{0} roars a salute to {NEGOTIATOR_labelShort} and asks what you need taken care of.</KeshigFactionGreetingWary>
+  <KeshigFactionGreetingWarm>Chanting cheerfully, {0} greets {NEGOTIATOR_labelShort} with a slurred voice, and asks what {LEADER_pronoun} can do to aid you.</KeshigFactionGreetingWarm>
+  <KeshigMilitaryAidSent>{0} accepts the request for keshig units, and says they'll arrive immediately.</KeshigMilitaryAidSent>
+  
+</LanguageData>

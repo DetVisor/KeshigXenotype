@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    	
+	<DV_InsertBloodmustDesc>Must to Insert</DV_InsertBloodmustDesc>
+	<DV_StartInsertionGoreMust>Bring Must</DV_StartInsertionGoreMust>
+	<DV_StartInsertionGoreMustDesc>Bring gore must to the gorewine drum to start fermentation process</DV_StartInsertionGoreMustDesc>
+	<DV_CancelBringingGoreMust>Cancel Bringing Must</DV_CancelBringingGoreMust>
+	<DV_CancelBringingGoreMustDesc>Cancel bringing gore must to the gorewine must.</DV_CancelBringingGoreMustDesc>
+
+</LanguageData>

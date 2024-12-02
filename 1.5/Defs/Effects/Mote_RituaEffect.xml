@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="MoteBase">
+    <defName>DV_Mote_EffigyOutline</defName>
+    <thingClass>MoteThrown</thingClass>
+    <altitudeLayer>LightingOverlay</altitudeLayer>
+    <mote>
+      <solidTime>99999</solidTime>
+      <fadeInTime>0.2</fadeInTime>
+      <fadeOutTime>1</fadeOutTime>
+      <needsMaintenance>True</needsMaintenance>
+      <fadeOutUnmaintained>True</fadeOutUnmaintained>
+    </mote>
+    <graphicData>
+      <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+      <shaderType>RitualOutline</shaderType>
+      <texPath>Things/Mote/RitualEffects/Effigy</texPath>
+      <shaderParameters>
+        <_GradientTex>/Things/Mote/RitualEffects/DustyGradient</_GradientTex>
+        <_ScrollSpeed>0.15</_ScrollSpeed>
+      </shaderParameters>
+      <drawSize>(2.1, 4.1)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>DV_Mote_TengristCircle</defName>
+    <thingClass>MoteThrown</thingClass>
+    <altitudeLayer>VisEffects</altitudeLayer>
+    <mote>
+        <solidTime>99999</solidTime>
+        <fadeInTime>0.3</fadeInTime>
+        <fadeOutTime>1</fadeOutTime>
+        <needsMaintenance>True</needsMaintenance>
+        <fadeOutUnmaintained>True</fadeOutUnmaintained>
+    </mote>
+    <graphicData>
+        <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+        <shaderType>RitualOutline</shaderType>
+        <color>(222, 85, 101)</color>
+        <texPath>Things/Mote/RitualEffects/TengristCircle</texPath>
+        <shaderParameters>
+            <_GradientTex>/Things/Mote/RitualEffects/GlowRays</_GradientTex>
+            <_ScrollSpeed>0.13</_ScrollSpeed>
+            <_Intensity>0.13</_Intensity>
+        </shaderParameters>
+        <drawSize>15</drawSize>
+    </graphicData>
+</ThingDef>
+
+</Defs>
