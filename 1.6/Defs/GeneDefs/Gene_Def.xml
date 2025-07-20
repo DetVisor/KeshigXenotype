@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef>
+    <defName>DV_DodgeChance_Low</defName>
+    <label>lumbering</label>
+    <description>Carriers of this gene are physically stiffer and have a hard time dodging blows.</description>
+    <iconPath>UI/Icons/Genes/Gene_Inept</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <statOffsets>
+      <MeleeDodgeChance>-2</MeleeDodgeChance>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>stiff</symbol></li>
+        <li><symbol>inflexible</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>DV_DodgeChance_High</defName>
+    <label>deft</label>
+    <description>Carriers of this gene are highly flexible and have a easier time avoiding blows.</description>
+    <iconPath>UI/Icons/Genes/Gene_Nimble</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <statOffsets>
+      <MeleeDodgeChance>2</MeleeDodgeChance>
+    </statOffsets>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>feline</symbol></li>
+        <li><symbol>lithe</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+  <GeneDef>
+    <defName>DV_MeleeAffinity</defName>
+    <label>melee affinity</label>
+    <description>Carriers of this gene have a natural affinity for melee weapons, they have hyperflexible wrists and poweful shoulder muscles attuned to swinging melee weapons. Due to this, they'll be unhappy when wielding ranged weapons.</description>
+    <iconPath>UI/Icons/Genes/Gene_MeleeAffinity</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Brawler</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brawler</symbol></li>
+        <li><symbol>berserker</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairStyleBase">
+    <defName>DV_Hair_Keshig</defName>
+    <label>lock-haired</label>
+    <description>Carriers of this gene grow long hair that naturally forms into dreadlocks.</description>
+    <iconPath>UI/Icons/Genes/Gene_HairStyleKeshig</iconPath>
+    <displayOrderInCategory>57</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>Keshig</li>
+      </tags>
+    </hairTagFilter>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneJawBase">
+    <defName>DV_Jaw_Split</defName>
+    <label>split jaw</label>
+    <labelShortAdj>wide-mouthed</labelShortAdj>
+    <description>Carriers of this gene have a split lower jaw bone with large protruding tusks, it allows their mouth to open wider, meaning they can eat faster, and makes them look more menacing too.</description>
+    <iconPath>UI/Icons/Genes/Gene_SplitJaw</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <displayCategory>Cosmetic</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <statOffsets>
+      <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
+			<EatingSpeed>0.1</EatingSpeed>
+		</statOffsets>
+    <forcedHeadTypes>
+      <li>DV_Male_Splitjaw</li>
+      <li>DV_Female_Splitjaw</li>
+    </forcedHeadTypes>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>DV_Headbone_ForeheadPlating</defName>
+    <label>scalp plating</label>
+    <labelShortAdj>plated</labelShortAdj>
+    <description>Carriers of this gene form hard bone-like plates above their forehead and up the scalp which grant extra protection against concussions and blows.</description>
+    <iconPath>UI/Icons/Genes/Gene_HeadbonePlates</iconPath>
+    <displayOrderInCategory>0</displayOrderInCategory>
+    <displayCategory>Cosmetic</displayCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <biostatCpx>1</biostatCpx>
+		<statOffsets>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+		</statOffsets>
+    <renderNodeProperties>
+      <li>
+      <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+      <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>    
+      <parentTagDef>Head</parentTagDef>
+      <texPath>Things/Pawn/Humanlike/HeadAttachments/ReinforcedForehead/ReinforcedForehead</texPath>
+      <color>(255, 255, 255)</color>
+      <visibleFacing>
+        <li>East</li>
+        <li>South</li>
+        <li>West</li>
+      </visibleFacing>
+      <drawData>
+        <defaultData>
+          <layer>65</layer>
+        </defaultData>
+      </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_GrimyRed</defName>
+    <label>grimy red skin</label>
+    <labelShortAdj>red</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a grimy red color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(96, 81, 78)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dirty</symbol></li>
+        <li><symbol>red</symbol></li>
+        <li><symbol>grimy</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_GrimyYellow</defName>
+    <label>grimy yellow skin</label>
+    <labelShortAdj>yellow</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a grimy yellow color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(110, 109, 87)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dirty</symbol></li>
+        <li><symbol>yellow</symbol></li>
+        <li><symbol>grimy</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_GrimyOrange</defName>
+    <label>grimy orange skin</label>
+    <labelShortAdj>orange</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a grimy orange color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(105, 97, 87)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dirty</symbol></li>
+        <li><symbol>orange</symbol></li>
+        <li><symbol>grimy</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>Skin_GrimyGreen</defName>
+    <label>grimy green skin</label>
+    <labelShortAdj>green</labelShortAdj>
+    <description>Carriers of this gene produce a pigment that gives their skin a grimy green color.</description>
+    <randomBrightnessFactor>0.2</randomBrightnessFactor>
+    <skinColorOverride>(94, 103, 89)</skinColorOverride>
+    <displayOrderInCategory>65</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dirty</symbol></li>
+        <li><symbol>green</symbol></li>
+        <li><symbol>grimy</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+</Defs>

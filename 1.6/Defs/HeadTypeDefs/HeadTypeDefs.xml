@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<HeadTypeDef ParentName="AverageBase">
+    <defName>DV_Male_Splitjaw</defName>
+    <randomChosen>false</randomChosen>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male_SplitJaw_AverageNormal</graphicPath>
+    <gender>Male</gender>
+    <requiredGenes>
+        <li>DV_Jaw_Split</li>
+    </requiredGenes>
+</HeadTypeDef>
+
+<HeadTypeDef ParentName="AverageBase">
+    <defName>DV_Female_Splitjaw</defName>
+    <randomChosen>false</randomChosen>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female_SplitJaw_AverageNormal</graphicPath>
+    <gender>Female</gender>
+    <requiredGenes>
+        <li>DV_Jaw_Split</li>
+    </requiredGenes>
+</HeadTypeDef>
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TipSetDef>
+    <defName>DV_KeshigTip</defName>
+    <tips>
+
+      <li TKey="KeshigTip">The Keshig may act like dumb brutes, but they're deceptively smart, and have a knack for taming animals.</li>
+
+    </tips>
+  </TipSetDef>
+
+    <TipSetDef>
+    <defName>DV_KeshigTip2</defName>
+    <tips>
+
+      <li TKey="KeshigTip2">Being on the opposite end of a serrated scimitar is not much fun. Being the one holding the handle is.</li>
+
+    </tips>
+  </TipSetDef>
+
+</Defs>

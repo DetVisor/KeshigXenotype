@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>DV_MakeGoreMust</defName>
+		<label>make gore must</label>
+		<description>Make a thick, starchy mash of raw potatoes and a starter, ready to be fermented.</description>
+		<jobString>Making gore must.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<recipeUsers>
+			<li>Brewery</li>			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+					  <li>MeatRaw</li>
+					</categories>
+				  </filter>
+				<count>15</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>		
+			<categories>
+				<li>FoodRaw</li>
+			  </categories>	
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>			
+			<categories>
+				<li>FoodRaw</li>
+			  </categories>	
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<DV_GoreMust>5</DV_GoreMust>
+		</products>
+		
+		<researchPrerequisite>Brewing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

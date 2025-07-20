@@ -28,7 +28,7 @@
           <countRange>1</countRange>
         </li>
         <li>
-          <thingDef>DV_Bloodwine</thingDef>
+          <thingDef>DV_Gorewine</thingDef>
           <countRange>1~2</countRange>
         </li>
       </subOptionsChooseOne>
@@ -269,7 +269,7 @@
           <countRange>1</countRange>
         </li>
         <li>
-          <thingDef>DV_Bloodwine</thingDef>
+          <thingDef>DV_Gorewine</thingDef>
           <countRange>1~2</countRange>
         </li>
         <li>
