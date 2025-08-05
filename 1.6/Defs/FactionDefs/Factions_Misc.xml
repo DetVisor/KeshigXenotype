@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<FactionDef ParentName="PirateBandBase">
+  <FactionDef ParentName="PirateBandBase">
     <defName>DV_PirateKeshig</defName>
     <label>keshig horde</label>
     <description>A tight-knit union of brutish, naturally armored keshig warriors. Although weary of outsiders, they are neutral to diplomatic contact, even allowing trade. They invade others with their skilled warriors without discretion, whether to pillage and steal or to assert their power.\n\nSpawned as a temporary invasion force under the control of a powerful empire, the rogue keshig now thrive on conquest, while still holding their beliefs of honor and loyalty.</description>
@@ -10,9 +10,7 @@
     <settlementNameMaker>DV_NamerSettlementPirateKeshig</settlementNameMaker>
     <pawnSingular>keshig</pawnSingular>
     <pawnsPlural>keshig</pawnsPlural>
-
     <leaderTitle>khan</leaderTitle>
-
     <fixedLeaderKinds>
       <li>DV_Khan_Keshig</li>
     </fixedLeaderKinds>
@@ -49,33 +47,35 @@
     <deityPresets>
       <li>
         <nameType>
-          <name>Kahlom</name><type>Bringer of War</type>
+          <name>Kahlom</name>
+          <type>Bringer of War</type>
         </nameType>
         <gender>Male</gender>
         <iconPath>UI/Deities/DeityEvil</iconPath>
       </li>
       <li>
         <nameType>
-          <name>Mivlak</name><type>Bringer of Peace</type>
+          <name>Mivlak</name>
+          <type>Bringer of Peace</type>
         </nameType>
         <gender>Female</gender>
         <iconPath>UI/Deities/DeityGood</iconPath>
       </li>
     </deityPresets>
     <styles>
-      <li>DV_Tengrism</li>
+      <li MayRequire="Ludeon.Rimworld.Ideology">DV_Tengrism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Spikecore</li>
     </styles>
     <allowedCultures Inherit="False">
       <li>DV_Uligerva</li>
     </allowedCultures>
     <requiredMemes Inherit="False">
-        <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-        <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
     </requiredMemes>
     <forcedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
     </forcedMemes>
     <allowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
@@ -85,7 +85,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
     </allowedMemes>
     <disallowedPrecepts>
-      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li> <!-- Never generate with any apparel precepts -->
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>      <!-- Never generate with any apparel precepts -->
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
 
       <li>Slavery_Classic</li>
@@ -119,7 +119,7 @@
       </points>
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers Inherit="False">
-            <!-- Traders -->
+      <!-- Traders -->
       <li>
         <kindDef>Trader</kindDef>
         <traders>

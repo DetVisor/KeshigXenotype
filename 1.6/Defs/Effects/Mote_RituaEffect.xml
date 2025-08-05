@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="MoteBase">
+<ThingDef ParentName="MoteBase" MayRequire="Ludeon.Rimworld.Ideology">
     <defName>DV_Mote_EffigyOutline</defName>
     <thingClass>MoteThrown</thingClass>
     <altitudeLayer>LightingOverlay</altitudeLayer>
@@ -24,7 +24,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="MoteBase">
+  <ThingDef ParentName="MoteBase" MayRequire="Ludeon.Rimworld.Ideology">
     <defName>DV_Mote_TengristCircle</defName>
     <thingClass>MoteThrown</thingClass>
     <altitudeLayer>VisEffects</altitudeLayer>

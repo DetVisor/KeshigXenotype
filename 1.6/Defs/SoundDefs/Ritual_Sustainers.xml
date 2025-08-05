@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <SoundDef ParentName="RitualSustainerBase">
+  <SoundDef ParentName="RitualSustainerBase" MayRequire="Ludeon.Rimworld.Ideology">
     <defName>DV_RitualSustainer_Tengrist</defName>
     <subSounds>
       <li>
