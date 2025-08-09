@@ -69,20 +69,20 @@
     <allowedCultures Inherit="False">
       <li>DV_Uligerva</li>
     </allowedCultures>
-    <requiredMemes Inherit="False">
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-    </requiredMemes>
+    <requiredMemes Inherit="False"/>
     <forcedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
     </forcedMemes>
-    <allowedMemes>
+    <allowedMemes Inherit="False">
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
     </allowedMemes>
     <disallowedPrecepts>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>      <!-- Never generate with any apparel precepts -->
