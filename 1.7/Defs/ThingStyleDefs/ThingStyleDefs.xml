@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingStyleDef>
+    <defName>DV_Tengrist_MarineHelmet</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineMongol/HelmetMarineMongol</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/HelmetMarineMongol/HelmetMarineMongol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>DV_Tengrist_SimpleHelmet</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SimpleHelmetTengrist/SimpleHelmetTengrist</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SimpleHelmetTengrist/SimpleHelmetTengrist</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>DV_Tengrist_Tailcap</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/TailcapTengrist/TailcapTengrist</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/TailcapTengrist/TailcapTengrist</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- Melee Weapons -->
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Spear</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.3</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Gladius</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Gladius</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Ikwa</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Ikwa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Knife</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Longsword</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Longsword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Mace</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Mace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Club</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Club</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Warhammer</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Warhammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  
+  <ThingStyleDef>
+		<defName>DV_Tengrist_Axe</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_Axe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+  
+  <ThingStyleDef>
+		<defName>DV_Tengrist_BreachAxe</defName>
+		<graphicData>
+			<texPath>Things/Item/EquipmentStyles/Tengrist/Tengrist_BreachAxe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+</Defs>

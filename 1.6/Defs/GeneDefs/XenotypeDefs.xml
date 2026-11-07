@@ -36,6 +36,7 @@
     <li>AptitudePoor_Social</li>
     <li>WoundHealing_Fast</li>
     <li>DV_MeleeAffinity</li>
+    <li mayRequire="det.brawnum">DV_RoughPlay</li>
   </genes>
   <forbiddenWeaponClasses>
     <li>LongShots</li>

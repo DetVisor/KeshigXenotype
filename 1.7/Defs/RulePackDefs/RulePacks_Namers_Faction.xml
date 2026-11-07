@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Yttakin -->
+
+  <RulePackDef>
+    <defName>DV_KeshigUtility</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>placeNameCore->[SylY][placeEnd]</li>
+        <li>placeNameCore->[SylY][SylY][placeEnd]</li>
+
+        <li>placeEnd->'miv</li>
+        <li>placeEnd->-eth</li>
+        <li>placeEnd->-lok</li>
+        <li>placeEnd->'meg</li>
+        <li>placeEnd->-ock</li>
+        <li>placeEnd->'barg</li>
+        <li>placeEnd->-leth</li>
+        <li>placeEnd->'gaarh</li>
+        <li>placeEnd->'kar</li>
+        <li>placeEnd->-gryr</li>
+        <li>placeEnd->'loef</li>
+        <li>placeEnd->-gur</li>
+        <li>placeEnd->'dur</li>
+        <li>placeEnd->'yiv</li>
+        <li>placeEnd->-rak</li>
+        <li>placeEnd->'nos</li>
+        <li>placeEnd->'vos'</li>
+        <li>placeEnd->-ven</li>
+        <li>placeEnd->-ish</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>SylY->WordParts/Syllables_Yttakin</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>DV_NamerFactionPirateKeshig</defName>
+    <include>
+      <li>DV_KeshigUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[placeNameCore]</li>
+        <li>r_name->[placeNameCore] [faction]</li>
+        <li>r_name->[faction] of [placeNameCore]</li>
+
+        <li>faction->warband</li>
+        <li>faction->clan</li>
+        <li>faction->family-clan</li>
+        <li>faction->warclan</li>
+        <li>faction->horde</li>
+        <li>faction->house</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>DV_NamerSettlementPirateKeshig</defName>
+    <include>
+      <li>DV_KeshigUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[placeNameCore]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

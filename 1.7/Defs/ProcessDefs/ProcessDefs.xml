@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PipeSystem.ProcessDef>
+		<defName>DV_GoremustToWine</defName>
+		<label>Turn goremust into gorewine</label>
+		<description>Turn 25 goremust into 15 gorewine.</description>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<autoExtract>false</autoExtract>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>DV_GoreMust</thing>
+				<countNeeded>25</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>120000</ticks>
+		<results>
+			<li>
+				<thing>DV_Gorewine</thing>
+				<count>15</count>
+			</li>
+		</results>
+		<noPowerDestroysProgress>false</noPowerDestroysProgress>
+		<rareTicksToDestroy>10</rareTicksToDestroy>
+		<destroyIngredientsOnStart>true</destroyIngredientsOnStart>
+	</PipeSystem.ProcessDef>
+</Defs>

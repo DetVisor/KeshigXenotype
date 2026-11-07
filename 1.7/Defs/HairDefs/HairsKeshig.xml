@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<StyleItemCategoryDef>
+    <defName>Keshig</defName>
+    <label>keshig</label>
+  </StyleItemCategoryDef>
+
+  <HairDef Name="KeshigHairBase" Abstract="True">
+    <category>Keshig</category>
+    <requiredGene>DV_Hair_Keshig</requiredGene>
+    <styleTags>
+      <li>Keshig</li>
+      <li>Shaved</li>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Soldier</li>
+      <li>HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_Worf</defName>
+    <label>worf</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Worf</texPath>
+  </HairDef>
+
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_Kang</defName>
+    <label>kang</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Kang</texPath>
+  </HairDef>
+
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_Kahless</defName>
+    <label>kahless</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Kahless</texPath>
+  </HairDef>
+
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_LKor</defName>
+    <label>l'kor</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/L'Kor</texPath>
+  </HairDef>
+
+  
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_Gowron</defName>
+    <label>gowron</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Gowron</texPath>
+  </HairDef>
+
+  <HairDef ParentName="KeshigHairBase">
+    <defName>DV_Morak</defName>
+    <label>morak</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Morak</texPath>
+  </HairDef>
+
+
+</Defs>
